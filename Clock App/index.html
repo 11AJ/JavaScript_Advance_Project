@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock App</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="box">
+      <div class="header">
+        <div class="quote">
+          <div class="quote-content"></div>
+          <div class="quote-author"></div>
+        </div>
+        <div class="quote-refresh">
+          <button class="btn-1"><img src="./assets/desktop/icon-refresh.svg" alt=""></button>
+        </div>
+      </div>
+      <div class="time">
+        <div class="time-left">
+          <img src="./assets/desktop/icon-moon.svg" alt="">
+          <span class="greeting"></span>
+          <span>, ITS CURRENTLY</span>
+          <div class="time-bottom">
+            <div class="area-time"></div>
+            <div class="time-notation">
+              <span class="AMPM"></span>
+              <span class="abbrev"></span>
+            </div>
+          </div>
+        </div>
+        <div class="time-right">
+          <button class="btn-2">MORE
+            <span class="arrow-head down"><img src="./assets/desktop/down-arrowhead.webp" alt="" class="arrow-type"></span>
+            <span class="arrow-head up transform"><img src="./assets/desktop/up arrowhead.png" alt="" class="arrow-type"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="footer transform">
+        <div class="current-timezone">
+          <p>CURRENT TIMEZONE</p>
+          <p class="ct foot"></p>
+        </div>
+        <div class="day-of-week">
+          <p>DAY OF WEEK</p>
+          <p class="dow foot"></p>
+        </div>
+        <div class="day-of-year">
+          <p>DAY OF YEAR</p>
+          <p class="doy foot"></p>
+        </div>
+        <div class="week-number">
+          <p>WEEK NUMBER</p>
+          <p class="wn foot"></p>
+        </div>
+    </div>
+  </div>
+
+  <script src="./script2.js"></script>
+</body>
+
+</html>

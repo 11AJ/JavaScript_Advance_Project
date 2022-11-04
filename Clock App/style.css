@@ -1,0 +1,156 @@
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 750px;
+    background: url(./assets/desktop/bg-image-nighttime.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box {
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.header {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote {
+    width: 50%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+.quote-content {
+    margin: 10px 0;
+}
+
+.quote-author {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.quote-refresh {
+    width: 10%;
+    margin-right: 30%;
+    margin-top: 25px;
+}
+
+.btn-1 {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    position: relative;
+}
+
+.btn-1:hover {
+    cursor: pointer;
+}
+
+.time {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-left {
+    width: 80%;
+    padding: 20px;
+}
+
+.time-left span {
+    font-size: 26px;
+    margin-left: 10px;
+    color: white;
+    font-weight: 300;
+}
+
+.greeting {
+    color: red;
+    font-weight: bold;
+}
+
+.time-bottom {
+    display: flex;
+}
+
+.area-time {
+    width: 87%;
+    font-size: 150px;
+    font-weight: 800;
+    color: white;
+}
+
+.time-notation {
+    width: 13%;
+    padding-top: 50px;
+}
+.time-notation span{
+    font-size: 40px;
+    font-weight: 300;
+}
+.time-right{
+    width: 10%;
+    padding-top: 200px;
+}
+.btn-2{
+    width: 130px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.arrow-head img{
+    width: 30px;
+}
+.btn-2:hover{
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 350px;
+    background: rgba(4, 1, 14, 0.9);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 100px 100px 200px;
+}
+.footer> div{
+    width: 40%;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.foot{
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.headar.transform{
+    display: none;
+}
+.transform{
+    transform: translateY(-100%);
+    transition: all 2s ease-in-out;
+    display: none;
+}
